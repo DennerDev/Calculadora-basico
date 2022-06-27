@@ -1,0 +1,74 @@
+/*reset */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    padding-top: 10%;
+}
+
+.fundo {
+    background-image: radial-gradient(circle at 104.17% 4.55%, #ffc21b 0, #ffb32c 8.33%, #ffa339 16.67%, #ff9043 25%, #ff7c4c 33.33%, #ff6851 41.67%, #f25353 50%, #d94053 58.33%, #c33054 66.67%, #af2455 75%, #9d1c56 83.33%, #8e1859 91.67%, #81185c 100%);
+    color: aliceblue;
+    height: 100vh;
+    
+    /*Background na pagina completo (vh)*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    margin: 4px;
+    font-size: 25px;
+
+    cursor: pointer;
+
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: aliceblue;
+}
+
+.botao:hover {
+    background-color: aliceblue;
+    color: black;
+}
+/*B0tão = */
+.botao2 {
+    height: 106px;
+    background-color: green;
+    color: black;
+}
+
+/*Botão 0*/
+.botao3 {
+    width: 106px;
+}
+
+#resultado {
+    background-color: aliceblue;
+    width: 230px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+
+    color: black;
+    text-align: right;
+}
